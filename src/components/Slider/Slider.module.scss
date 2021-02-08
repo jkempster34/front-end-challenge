@@ -1,0 +1,47 @@
+@import "../../utils/constants.scss";
+
+.text {
+  font-family: "calibre-regular";
+  font-size: 16px;
+}
+
+.sliderContainer {
+  width: 350px;
+}
+
+.slider {
+  $height: 15px;
+  $thumb: 40px;
+
+  appearance: none;
+  width: 100%;
+  height: $height;
+  border-radius: $height / 2;
+  background: linear-gradient(to right, $purple, $strong-cyan, $vivid-cyan);
+  outline: none;
+
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: $thumb;
+    height: $thumb;
+    border-radius: $thumb / 2;
+    border: $white 5px solid;
+    background: $purple;
+    cursor: pointer;
+  }
+}
+
+.header {
+  font-weight: bold;
+}
+
+.optionsContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  .option {
+    width: calc(100% / 3);
+  }
+}

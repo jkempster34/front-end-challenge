@@ -1,0 +1,27 @@
+@import "../../utils/constants.scss";
+
+$height: 125px;
+$width: 175px;
+$extra: 15px;
+
+.inactive {
+  padding-top: 8px;
+  background-color: $white;
+  border: $vivid-cyan solid 2px;
+  border-radius: 10px;
+  height: $height;
+  width: $width;
+}
+
+.active {
+  padding-top: 15px;
+  background: linear-gradient(to bottom, $purple, $strong-cyan, $vivid-cyan);
+  border-radius: 10px;
+  height: $height + $extra;
+  width: $width + $extra;
+  border: 0;
+}
+
+.activeTitle {
+  color: $white;
+}

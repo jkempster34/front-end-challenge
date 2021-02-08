@@ -1,0 +1,31 @@
+@import "./utils/constants.scss";
+
+body {
+  margin: 0 100px;
+}
+
+@mixin headers {
+  color: $dark-green;
+  font-family: $calibre-medium;
+}
+
+h1 {
+  @include headers;
+  font-size: 54px;
+}
+
+h2 {
+  @include headers;
+  font-size: 45px;
+}
+
+h3 {
+  @include headers;
+  font-size: 16px;
+}
+
+p {
+  font-family: $futura;
+  font-size: 18px;
+  color: $dark-grey;
+}

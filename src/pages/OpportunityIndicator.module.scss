@@ -1,0 +1,37 @@
+@import "../utils/constants.scss";
+
+.heading {
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+
+  input {
+    width: 200px;
+  }
+}
+
+.scenarioContainer {
+  display: flex;
+  justify-content: space-between;
+
+  .selectionContainer {
+    display: flex;
+    flex-direction: column;
+
+    .buttonContainer {
+      width: 100%;
+      margin-right: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

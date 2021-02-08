@@ -1,0 +1,21 @@
+@import "../../utils/constants.scss";
+
+.input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 2px solid $vivid-cyan;
+  font-family: $calibre-regular;
+  font-size: 28px;
+  color: $dark-green;
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.unit {
+  display: inline;
+}

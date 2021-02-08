@@ -1,0 +1,28 @@
+// COLOURS
+$white: #ffffff;
+$neutral: #edf2f0;
+$dark-green: #044b35;
+$dark-grey: #333333;
+$purple: #7d7ccf;
+$strong-cyan: #1db6a9;
+$vivid-cyan: #2afbca;
+
+// FONTS
+$calibre-medium: "calibre-medium", sans-serif;
+$calibre-regular: "calibre-regular", sans-serif;
+$futura: "futura", sans-serif;
+
+@font-face {
+  font-family: "calibre-medium";
+  src: url ("../assets/fonts/Calibre/Calibre-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "calibre-regular";
+  src: url ("../assets/fonts/Calibre/Calibre-regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "futura";
+  src: url ("../assets/fonts/Futura bk bt/FuturaBookBT.ttf") format("truetype");
+}
